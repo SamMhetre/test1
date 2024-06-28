@@ -25,7 +25,7 @@ public class RestaurantController {
 		restaurantServiceRef.getAllRestaurants();
 		return allRestaurants;
 	}
-	
+	// testing
 	//@RequestMapping("/restaurant-data-api/{restId}")
 	@GetMapping("/restaurant-data-api/{restId}")
 	public Restaurant getOneRestaurant(@PathVariable("restId") Integer id) {
